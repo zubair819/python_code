@@ -1,26 +1,3 @@
-"""a=int(input())
-l=list(map(int,input().split()))
-l.sort()
-print(l)
-l1={}
-c=1
-j=1
-for i in range(0,len(l)):
-    if j<len(l):
-        if l[i]==l[j]:
-            c=c+1
-            l1[l[i]]={c}
-            j=j+1
-        elif l[i]!=l[j]:
-            l1[l[i]]={c}
-            c=0
-            j=j+1
-    elif j==len(l):
-        c=c+1
-        l1[l[i]]={c}
-print(l1)"""
-
-
 n=int(input())
 arr=list(map(int,input().split()))
 d={}
